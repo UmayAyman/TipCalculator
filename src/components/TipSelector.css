@@ -1,0 +1,61 @@
+.tip-selector {
+    color: hsl(186, 14%, 43%);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Space Mono", monospace;
+    margin-top: 30px;
+}
+
+.tip-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 98px);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 0;
+}
+
+button {
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Space Mono", monospace;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:hsl(172, 67%, 45%);
+    color:  hsl(183, 100%, 15%);
+}
+
+button:active {
+    background-color: hsl(186, 14%, 43%);
+}
+
+.custom-button {
+    flex-basis: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(186, 14%, 43%);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Space Mono", monospace;
+}
+
+.people-input-field.error {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}

@@ -1,0 +1,52 @@
+body {
+  background-color: hsl(185, 41%, 84%);
+  margin-bottom: 20rem;
+  margin-top: 5rem;
+}
+
+.heading {
+  color: hsl(186, 14%, 43%);
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 6px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.line1, .line2 {
+  display: block;
+}
+
+.TipCalculator {
+  background-color: white;
+  border-radius: 1rem;
+  margin: 60px;
+  padding: 80px;
+  width: 650px;
+  margin-left: 250px;
+}
+
+.calculate-total {
+  background-color: hsl(183, 100%, 15%);
+  font-family: "Space Mono", monospace;
+  border-radius: 1rem;
+  text-align: center;
+  width: 350px;
+  height: 440px;
+  margin-left: 680px;
+  margin-top: -523px;
+}
+
+.calculate-total button {
+  background-color:hsl(172, 67%, 45%);
+  font-family: "Space Mono", monospace;
+  color:  hsl(183, 100%, 15%);
+  border-radius: 0.25rem;
+  text-align: center;
+  width: 260px;
+}

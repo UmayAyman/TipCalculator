@@ -1,0 +1,41 @@
+.bill-input {
+    color: hsl(186, 14%, 43%);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Space Mono", monospace;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dollar-sign {
+    position: absolute;
+    left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: hsl(186, 14%, 43%);
+    pointer-events: none;
+}
+
+.bill-input-field {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(186, 14%, 43%);
+    border: 2px solid hsl(189, 41%, 97%);
+    width: 20rem;
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    padding-left: 2rem; /* Adjusted padding */
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    margin-top: 10px;
+    outline: none;
+}
+
+.bill-input-field:focus {
+    border-color: hsl(172, 67%, 45%);
+}

@@ -1,0 +1,19 @@
+.total-person {
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-family: "Space Mono", monospace;
+    margin-right: 250px;
+    margin-left: -8px;
+    margin-top: -50px;
+    margin-bottom: 80px;
+}
+
+.amount {
+    color:hsl(172, 67%, 45%);
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 200px;
+    font-family: "Space Mono", monospace;
+}

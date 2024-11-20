@@ -1,0 +1,14 @@
+.tip-amount-person {
+    padding: 30px;
+    border-radius: 5px;
+    font-family: "Space Mono", monospace;
+    color: white;
+    font-size: 15px;
+    margin-left: -20px;
+    margin-bottom: -25px;
+    margin-right: 200px;
+}
+
+p {
+    margin-top: -40px;
+}
